@@ -4,3 +4,9 @@
 # Hugo
 resources/
 public/
+.Rproj.user
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
