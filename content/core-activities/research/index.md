@@ -1,5 +1,5 @@
 ---
-title: Executive education
+title: Research
 date: "2020-06-19T00:00:00Z"
 type: page
 ---
