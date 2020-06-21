@@ -27,6 +27,13 @@
   name = "Core activities"  # A link title for your page.
   url = "core-activities/"  # The URL of your page.
   weight = 50  # The position of your page in the menu.
+  identifier = "core-activities"
+
+[[main]]
+  name = "Executive education"  # A link title for your page.
+  url = "core-activities/executive-education"  # The URL of your page.
+  weight = 50  # The position of your page in the menu.
+  parent = "core-activities"
 
 [[main]]
   name = "Contact"
