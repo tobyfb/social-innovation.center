@@ -4,7 +4,7 @@
 #   The weight parameter defines the order that the links will appear in.
 
 [[main]]
-  name = "Home"
+  name = ""
   identifier = "home"
   url = "/"
   pre = "<i class='fa fa-home'></i>"
