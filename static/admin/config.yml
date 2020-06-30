@@ -302,7 +302,7 @@ collections:
             default: false
           - {label: "Body", name: "body", widget: "markdown"}
       - file: "content/activities/innovation/index.md"
-        label: "Innovation"
+        label: "Activity - Innovation"
         name: "innovation"
         fields:
           - {label: "Title", name: "title", widget: "string"}
@@ -316,7 +316,7 @@ collections:
             default: false
           - {label: "Body", name: "body", widget: "markdown"}
       - file: "content/activities/research/index.md"
-        label: "Research"
+        label: "Activity - Research"
         name: "research"
         fields:
           - {label: "Title", name: "title", widget: "string"}
@@ -330,7 +330,7 @@ collections:
             default: false
           - {label: "Body", name: "body", widget: "markdown"}
       - file: "content/activities/teaching/index.md"
-        label: "Teaching"
+        label: "Activity - Teaching"
         name: "teaching"
         fields:
           - {label: "Title", name: "title", widget: "string"}
@@ -344,7 +344,7 @@ collections:
             default: false
           - {label: "Body", name: "body", widget: "markdown"}
       - file: "content/activities/executive-education/index.md"
-        label: "Executive education"
+        label: "Activity - Executive education"
         name: "executive-education"
         fields:
           - {label: "Title", name: "title", widget: "string"}
@@ -358,7 +358,7 @@ collections:
             default: false
           - {label: "Body", name: "body", widget: "markdown"}
       - file: "content/activities/community-dissemination/index.md"
-        label: "Community and dissemination"
+        label: "Activity - Community and dissemination"
         name: "community-dissemination"
         fields:
           - {label: "Title", name: "title", widget: "string"}
@@ -372,7 +372,7 @@ collections:
             default: false
           - {label: "Body", name: "body", widget: "markdown"}
       - file: "content/about/ambition/index.md"
-        label: "Ambition"
+        label: "About - Ambition"
         name: "ambition"
         fields:
           - {label: "Title", name: "title", widget: "string"}
@@ -386,7 +386,7 @@ collections:
             default: false
           - {label: "Body", name: "body", widget: "markdown"}
       - file: "content/about/approach/index.md"
-        label: "Approach"
+        label: "About - Approach"
         name: "approach"
         fields:
           - {label: "Title", name: "title", widget: "string"}
@@ -400,7 +400,7 @@ collections:
             default: false
           - {label: "Body", name: "body", widget: "markdown"}
       - file: "content/about/team/index.md"
-        label: "Team"
+        label: "About - Team"
         name: "team"
         fields:
           - {label: "Title", name: "title", widget: "string"}
@@ -414,8 +414,22 @@ collections:
             default: false
           - {label: "Body", name: "body", widget: "markdown"}
       - file: "content/about/partners/index.md"
-        label: "Partners"
+        label: "About - Partners"
         name: "partners"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Publish Date", name: "date", widget: "datetime"}
+          - {label: "Subtitle", name: "subtitle", widget: "string", required: false}
+          - {label: "Summary", name: "summary", widget: "markdown", required: false}
+          - label: "Draft"
+            name: "draft"
+            required: false
+            widget: "boolean"
+            default: false
+          - {label: "Body", name: "body", widget: "markdown"}
+      - file: "content/know-how/index.md"
+        label: "Know-how"
+        name: "know-how"
         fields:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Publish Date", name: "date", widget: "datetime"}
