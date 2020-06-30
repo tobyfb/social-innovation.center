@@ -301,9 +301,65 @@ collections:
             widget: "boolean"
             default: false
           - {label: "Body", name: "body", widget: "markdown"}
-      - file: "content/core-activities/innovation/index.md"
+      - file: "content/activities/innovation/index.md"
         label: "Innovation"
         name: "innovation"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Publish Date", name: "date", widget: "datetime"}
+          - {label: "Subtitle", name: "subtitle", widget: "string", required: false}
+          - {label: "Summary", name: "summary", widget: "markdown", required: false}
+          - label: "Draft"
+            name: "draft"
+            required: false
+            widget: "boolean"
+            default: false
+          - {label: "Body", name: "body", widget: "markdown"}
+      - file: "content/activities/research/index.md"
+        label: "Research"
+        name: "research"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Publish Date", name: "date", widget: "datetime"}
+          - {label: "Subtitle", name: "subtitle", widget: "string", required: false}
+          - {label: "Summary", name: "summary", widget: "markdown", required: false}
+          - label: "Draft"
+            name: "draft"
+            required: false
+            widget: "boolean"
+            default: false
+          - {label: "Body", name: "body", widget: "markdown"}
+      - file: "content/activities/teaching/index.md"
+        label: "Teaching"
+        name: "teaching"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Publish Date", name: "date", widget: "datetime"}
+          - {label: "Subtitle", name: "subtitle", widget: "string", required: false}
+          - {label: "Summary", name: "summary", widget: "markdown", required: false}
+          - label: "Draft"
+            name: "draft"
+            required: false
+            widget: "boolean"
+            default: false
+          - {label: "Body", name: "body", widget: "markdown"}
+      - file: "content/activities/executive-education/index.md"
+        label: "Executive education"
+        name: "executive-education"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Publish Date", name: "date", widget: "datetime"}
+          - {label: "Subtitle", name: "subtitle", widget: "string", required: false}
+          - {label: "Summary", name: "summary", widget: "markdown", required: false}
+          - label: "Draft"
+            name: "draft"
+            required: false
+            widget: "boolean"
+            default: false
+          - {label: "Body", name: "body", widget: "markdown"}
+      - file: "content/activities/community-dissemination/index.md"
+        label: "Community and dissemination"
+        name: "community-dissemination"
         fields:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Publish Date", name: "date", widget: "datetime"}
