@@ -9,16 +9,46 @@
   url = "/"
   pre = "<i class='fa fa-home'></i>"
   weight = 10
+  
+[[main]]
+  name = "About"
+  url = "/about/"
+  weight = 20
+  identifier = "about"
+
+[[main]]
+  name = "Ambition"
+  url = "/about/ambition/"
+  weight = 21
+  parent = "about"
+
+[[main]]
+  name = "Approach"
+  url = "/about/approach/"
+  weight = 22
+  parent = "about"
+
+[[main]]
+  name = "Team"
+  url = "/about/team/"
+  weight = 23
+  parent = "about"
+
+[[main]]
+  name = "Partners"
+  url = "/about/partners/"
+  weight = 24
+  parent = "about"
 
 [[main]]
   name = "Blog"
   url = "#posts"
-  weight = 20
+  weight = 30
 
 [[main]]
   name = "Know-how"
   url = "/know-how/"
-  weight = 20
+  weight = 40
 
 #[[main]]
 #  name = "Publications"
@@ -60,36 +90,6 @@
   url = "/activities/community-dissemination/"  # The URL of your page.
   weight = 55  # The position of your page in the menu.
   parent = "activities"
-  
-[[main]]
-  name = "About"
-  url = "/about/"
-  weight = 60
-  identifier = "about"
-
-[[main]]
-  name = "Ambition"
-  url = "/about/ambition/"
-  weight = 61
-  parent = "about"
-
-[[main]]
-  name = "Approach"
-  url = "/about/approach/"
-  weight = 62
-  parent = "about"
-
-[[main]]
-  name = "Team"
-  url = "/about/team/"
-  weight = 63
-  parent = "about"
-
-[[main]]
-  name = "Partners"
-  url = "/about/partners/"
-  weight = 64
-  parent = "about"
 
 [[main]]
   name = "Contact"
