@@ -1,7 +1,5 @@
 ---
-title: Core activities
-summary: Here we describe how to add a page to your site.
+title: Activities
+summary: Activities of CSI-HSG
 date: "2020-06-20T00:00:00Z"
 ---
-
-Add your *content* here...

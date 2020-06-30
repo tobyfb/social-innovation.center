@@ -15,11 +15,6 @@
   url = "#posts"
   weight = 20
 
-[[main]]
-  name = "Projects"
-  url = "#projects"
-  weight = 30
-
 #[[main]]
 #  name = "Publications"
 #  url = "#featured"
@@ -60,11 +55,41 @@
   url = "/activities/community-dissemination/"  # The URL of your page.
   weight = 55  # The position of your page in the menu.
   parent = "activities"
+  
+[[main]]
+  name = "About"
+  url = "/about/"
+  weight = 60
+  identifier = "about"
+
+[[main]]
+  name = "Ambition"
+  url = "/about/ambition/"
+  weight = 61
+  parent = "about"
+
+[[main]]
+  name = "Approach"
+  url = "/about/approach/"
+  weight = 62
+  parent = "about"
+
+[[main]]
+  name = "Team"
+  url = "/about/team/"
+  weight = 63
+  parent = "about"
+
+[[main]]
+  name = "Partners"
+  url = "/about/partners/"
+  weight = 64
+  parent = "about"
 
 [[main]]
   name = "Contact"
   url = "#contact"
-  weight = 60
+  weight = 70
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
